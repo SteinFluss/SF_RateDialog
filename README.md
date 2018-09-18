@@ -4,15 +4,12 @@ This is a quick and simple library to send a dialog that asks the user to rate t
 
 Dependency
 (build.gradle (root))
-
-allprojects {
+	allprojects {
 		repositories {
-			...
 			maven { url 'https://jitpack.io' }
 		}
 	}
-  
-  (Build.gradle (app))
+(build.gradle (app))
   
   	dependencies {
 	        implementation 'com.github.SteinFluss:SF_RateDialog:0.1'
