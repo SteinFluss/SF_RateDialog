@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dont_rate">No votar aplicación</string>
+    <string name="rate_now">Califica ahora</string>
+    <string name="rate_later">Calificar después</string>
+    <string name="pls_review_app">Realimentación</string>
+    <string name="please_review">¿Tiene alguna sugerencia para esta aplicación? ¿Te gusta eso? Por favor, deje un comentario en el PlayStore. Esto realmente nos ayudaría a cabo! Sólo se tarda unos pocos clics. Gracias</string>
+</resources>

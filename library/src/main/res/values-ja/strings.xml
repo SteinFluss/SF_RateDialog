@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dont_rate">アプリを評価しないでください</string>
+    <string name="rate_now">今レート</string>
+    <string name="rate_later">レート後で</string>
+    <string name="pls_review_app">フィードバック</string>
+    <string name="please_review">あなたは、このアプリのために何か提案はありますか？いかがですか？ PlayStoreでレビューを残してください。これは本当に私たちを助けるだろう！それは数回クリックするだけかかります。感謝</string>
+</resources>

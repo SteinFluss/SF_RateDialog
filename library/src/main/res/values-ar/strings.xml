@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dont_rate">لا معدل التطبيق</string>
+    <string name="rate_now">قيم الآن</string>
+    <string name="rate_later">التقييم لاحقا</string>
+    <string name="pls_review_app">ردود الفعل</string>
+    <string name="please_review">هل لديك أي اقتراحات لهذا التطبيق؟ كيف تريده ؟ الرجاء ترك التعليق في PlayStore. هذا من شأنه أن يساعد حقا لنا بها! يستغرق سوى بضع نقرات. شكر</string>
+</resources>

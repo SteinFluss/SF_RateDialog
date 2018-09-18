@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dont_rate">不要为应用程序评分</string>
+    <string name="rate_now">现在就评价吧</string>
+    <string name="rate_later">后来率</string>
+    <string name="pls_review_app">反馈</string>
+    <string name="please_review">你有没有为这个应用程序有什么建议？你觉得怎么样？请留下在Play商店中的评论。这将真正帮助我们了！只需要点击几下。谢谢</string>
+</resources>

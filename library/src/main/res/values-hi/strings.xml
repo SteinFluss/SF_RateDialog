@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dont_rate">एप्लिकेशन को रेट न करें</string>
+    <string name="rate_now">अब रेट करें</string>
+    <string name="rate_later">मूल्यांकन बाद में करें</string>
+    <string name="pls_review_app">प्रतिक्रिया</string>
+    <string name="please_review">आप इस अनुप्रयोग के लिए किसी भी सुझाव है? तुम्हे यह कैसा लगा? PlayStore में एक समीक्षा छोड़ दें। यह वास्तव में हमें बाहर करने में मदद मिलेगी! यह केवल कुछ ही क्लिक लेता है। धन्यवाद</string>
+</resources>

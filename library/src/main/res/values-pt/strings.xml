@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dont_rate">Não taxa aplicativo</string>
+    <string name="rate_now">Avalie agora</string>
+    <string name="rate_later">Avalie mais tarde</string>
+    <string name="pls_review_app">Comentários</string>
+    <string name="please_review">Você tem alguma sugestão para esta aplicação? Como é que você gosta? Por favor, deixe um comentário no PlayStore. Isso realmente nos ajudar! Leva apenas alguns cliques. obrigado</string>
+</resources>

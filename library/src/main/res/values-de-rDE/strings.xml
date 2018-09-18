@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dont_rate">Nicht bewerten</string>
+    <string name="rate_now">Jetzt bewerten</string>
+    <string name="rate_later">Später bewerten</string>
+    <string name="pls_review_app">Bewerten</string>
+    <string name="please_review">Hast du Ideen oder Anregungen zu dieser App? Wie findes du die App? Bitte lass es uns mit einer Bewertung im PlayStore wissen. Danke!</string>
+</resources>
