@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.net.Uri;
 import android.support.annotation.NonNull;
+import android.support.annotation.Nullable;
 import android.view.View;
 import android.widget.Toast;
 
@@ -21,7 +22,7 @@ public class RateDialogUtils {
     private static int countToRateGlobal;
     private static String THIS_APP_URL;
 
-    public static void render(Activity activity, int countToRate, String appUrl, Drawable icon){
+    public static void render(@NonNull Activity activity, int countToRate, @NonNull String appUrl, @Nullable Drawable icon){
         countToRateGlobal = countToRate;
         THIS_APP_URL = appUrl;
         Context context = activity.getApplicationContext();
@@ -33,13 +34,12 @@ public class RateDialogUtils {
         }
     }
 
-    private static MaterialDialog.Builder getPleaseRateDialog(Activity activity, Drawable icon){
+    private static MaterialDialog.Builder getPleaseRateDialog(Activity activity,@Nullable Drawable icon){
         final Context context = activity.getApplicationContext();
-        return new MaterialDialog.Builder(activity)
+        MaterialDialog.Builder builder = new MaterialDialog.Builder(activity)
                 .title(context.getString(R.string.pls_review_app))
                 //.customView(R.layout.layout_rate_dialog,true)
                 .content(R.string.please_review)
-                .icon(icon)
                 .positiveText(R.string.rate_now)
                 .onPositive(new MaterialDialog.SingleButtonCallback() {
                     @Override
@@ -62,6 +62,10 @@ public class RateDialogUtils {
                         dontShowRateAgain(context);
                     }
                 });
+        if (icon != null){
+            builder.icon(icon);
+        }
+        return builder;
     }
 
     private static void dontShowRateAgain(Context context){
