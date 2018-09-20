@@ -13,5 +13,5 @@ build.gradle (root)
 build.gradle (app)
   
   	dependencies {
-	        implementation 'com.github.SteinFluss:SF_RateDialog:0.1'
+	        implementation 'com.github.SteinFluss:SF_RateDialog:0.1.1'
 	}
